@@ -11,7 +11,6 @@ import org.springframework.data.domain.Sort.Direction;
 import org.springframework.stereotype.Service;
 
 import com.fabiosouza.cursomc.domain.Cliente;
-import com.fabiosouza.cursomc.domain.Cliente;
 import com.fabiosouza.cursomc.dto.ClienteDTO;
 import com.fabiosouza.cursomc.repositories.ClienteRepository;
 import com.fabiosouza.cursomc.services.exceptions.DataIntegrityException;
