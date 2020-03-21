@@ -36,6 +36,7 @@ public class CategoriaResource {
 		
 	}
 	
+	
 	@PreAuthorize("hasAnyRole('ADMIN')")
 	@RequestMapping(method=RequestMethod.POST)
 	public ResponseEntity<Void> insert(@Valid @RequestBody CategoriaDTO objDto){
